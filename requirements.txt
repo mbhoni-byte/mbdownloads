@@ -1,0 +1,37 @@
+# Core Framework
+Flask==2.3.2
+Flask-SQLAlchemy==3.0.3
+Flask-Login==0.6.2
+Flask-WTF==1.1.1
+Flask-Migrate==4.0.4
+python-dotenv==1.0.0
+
+# Video Processing
+yt-dlp==2023.7.6  # Supports Facebook, Instagram, Twitter, TikTok
+moviepy==1.0.3    # For TikTok watermark removal
+requests==2.31.0
+beautifulsoup4==4.12.2
+
+# Payment Processing
+stripe==5.5.0
+paypalrestsdk==1.13.1
+
+# Database & ORM
+SQLAlchemy==2.0.19
+psycopg2-binary==2.9.7  # PostgreSQL adapter
+alembic==1.11.1
+
+# User Authentication
+email-validator==2.0.0
+itsdangerous==2.1.2
+bcrypt==4.0.1
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+Werkzeug==2.3.6
+Jinja2==3.1.2
+
+# Production
+gunicorn==20.1.0
+whitenoise==6.4.0
