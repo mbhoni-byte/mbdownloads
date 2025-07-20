@@ -844,5 +844,20 @@
             });
         });
     </script>
+    <script>
+        function downloadVideo() {
+    const videoUrl = document.getElementById("videoInput").value;
+    fetch(`https://www.mbdownloadz.net/download?url=${encodeURIComponent(videoUrl)}`)
+        .then(response => response.json())
+        .then(data => {
+            if(data.status === "success") {
+                alert("Downloaded: " + data.title);
+            } else {
+                alert("Error: " + data.error);
+            }
+        });
+}
+
+    </script>
 </body>
 </html>
