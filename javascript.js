@@ -394,7 +394,7 @@ downloadContainer.innerHTML += `
 
     // If no download buttons or iframes were added, notify the user
     if (downloadContainer.innerHTML.trim() === "") {
-        displayError("Server Down due to Too Many Requests. Please contact us on Social Media @bern_mak1.");
+        displayError("Server Down due to Too Many Requests. But you still can download youtube videos. Please contact us on Social Media @bern_mak1 for any complaint.");
         document.getElementById("container").style.display = "none";
         // Redirecting the user to an alternative download page
        // window.location.href = `https://vkrdownloader.xyz/download.php?vkr=${encodeURIComponent(inputUrl)}`;
